@@ -1,0 +1,25 @@
+/* Add application styles & imports to this file! */
+.container {
+  color:red;
+  
+ 
+  width: 300px;
+  padding: 10px;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.dropdown-body {
+  margin-top: 20px;
+
+}
+/* .title, .arrow {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  
+} */
