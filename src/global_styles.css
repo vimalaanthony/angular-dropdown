@@ -15,11 +15,15 @@
 
 .dropdown-body {
   margin-top: 20px;
+  background-color: lightcoral;
+  min-height: 200px;
+  max-height: 200px;
+  overflow-y: scroll;
 
 }
-/* .title, .arrow {
+.title, .arrow {
   display: flex;
   width: 20px;
   height: 20px;
   
-} */
+}

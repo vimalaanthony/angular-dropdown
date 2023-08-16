@@ -14,7 +14,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
        <div class="title"> title</div>
        <div class="arrow"> < </div>
      </div>
-     <div class="dropdown-body" *ngIf="isShow">
+     <div class="dropdown-body" *ngIf="isShow" (scroll)="scollDiv()">
         <ng-container *ngFor="let opt of listItems">
           <p> {{opt}}</p>
         </ng-container>
@@ -29,6 +29,9 @@ export class App {
 
   openDropDown() {
     this.isShow = !this.isShow;
+  }
+  scollDiv() {
+    alert('jes');
   }
 }
 
