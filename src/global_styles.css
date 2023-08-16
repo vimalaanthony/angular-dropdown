@@ -1,8 +1,7 @@
 /* Add application styles & imports to this file! */
 .container {
-  color:red;
-  
- 
+  color: red;
+
   width: 300px;
   padding: 10px;
 }
@@ -13,17 +12,31 @@
   background-color: gray;
 }
 
-.dropdown-body {
-  margin-top: 20px;
-  background-color: lightcoral;
-  min-height: 200px;
-  max-height: 200px;
-  overflow-y: scroll;
 
-}
-.title, .arrow {
+.title,
+.arrow {
   display: flex;
   width: 20px;
   height: 20px;
-  
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px blue;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: green;
 }
